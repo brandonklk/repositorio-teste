@@ -1,0 +1,33 @@
+{
+  "name": "backend-digital",
+  "version": "1.0.0",
+  "description": "projeto do backend da digital",
+  "main": "server.js",
+  "author": "Brandon M. Kluck",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "build": "babel src --out-dir lib",
+    "test": "jest"
+  },
+  "dependencies": {
+    "celebrate": "^14.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "node-cache": "^5.1.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7"
+  }
+}
